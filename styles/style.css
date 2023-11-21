@@ -1,0 +1,272 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+    font-family: 'Pilat Wide';
+    src: url(../font/PilatWide-Bold.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #1E1450;
+    padding: 5px 0;
+}
+
+.header .logo {
+    font-size: 25px;
+}
+
+.header .logo-link {
+    margin-left: 260px;
+}
+
+.header-right {
+    float: right;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-right: 50px;
+}
+
+.header a {
+    font-family: 'Pilat Wide', sans-serif;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    background-color: #150E38;
+    color: #fff;
+}
+
+.wrapper{
+    position: relative;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.intro-wrapper {
+    position: relative;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.intro {
+    min-height: 10vh;
+    background: url(../img/background.png) no-repeat center;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 123px;
+}
+
+.disclaimer{
+    text-align: center;
+    font-family: 'Pilat Wide', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 5px solid white;
+}
+
+.intro_logo {
+    margin-top: 60px;
+    width: 250px;
+    height: auto;
+}
+
+.intro_title{
+    font-family: 'Pilat Wide', sans-serif;
+    max-width: 619px;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+.intro_subtitle{
+    font-family: 'Pilat Wide', sans-serif;
+    max-width: 546px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 24px;
+    margin-bottom: 59px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.btn-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.android-btn-wrapper {
+    margin-top: 15px;
+}
+
+.btn-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.btn {
+    background-color: #1E1450;
+    color: #fff;
+    cursor: default;
+    width: 250px;
+    height: 70px;
+    font-size: 16px;
+}
+
+.android-btn {
+    background-color: #1E1450;
+    color: #fff;
+    cursor: pointer;
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+}
+
+.android-btn:hover {
+    background-color: #150E38;
+}
+
+.btn img {  
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.android-btn img {  
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dropdown {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border: 1px solid #1E1450;
+    border-top: 0;
+}
+
+ul li a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #fff;
+    background: #1E1450;
+    text-decoration: underline;
+}
+
+li:hover a {
+    color: #fff;
+}
+
+p {
+    font-size: 20px;
+}
+
+.link {
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #E9E9E9;
+}
+
+.link:hover {
+    color: #fff;
+    background-color: #1E1450;
+}
+
+.wordlink:after {
+    background-image: url(../img/word.png);
+    background-size: 25px 25px;
+    vertical-align:text-bottom;
+    display: inline-block;
+    width: 25px; 
+    height: 25px;
+    content:"";
+}
+
+.pdflink:after {
+    background-image: url(../img/pdf.png);
+    background-size: 25px 25px;
+    vertical-align:text-bottom;
+    display: inline-block;
+    width: 25px; 
+    height: 25px;
+    content:"";
+}
+
+@media screen and (max-width: 1560px) {
+    .header .logo-link {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .header .logo-link {
+        margin-left: 0;
+    }
+
+    .intro-wrapper {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .disclaimer {
+        font-size: 21px;
+        border: 3px solid white;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .disclaimer {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .disclaimer {
+        font-size: 6px;
+    }
+}
